@@ -10,7 +10,7 @@ The architecture builds on the IPAM model that the reference architecture define
 
 A second CIDR range that is non-overlapping with on-premises must then be allocated for VPC's. This range will be re-used for every VPC that is deployed. This is specifically done to allow workloads to route through the web subnets to on-premises resources without worrying about conflicting addresses existing with the AWS environment. The diagram shows the web subnets being allocated via IPAM and the other non-routable VPCs being statically defined with the same range for all VPC's.
 
-![CIDR allocation](../doc-tse/architecture-doc/images/ipam/ipam-Overlapping-cidr-allocations.drawio.png)
+![CIDR allocation](/architecture-doc/images/ipam/ipam-Overlapping-cidr-allocations.drawio.png)
 
 ### Limitations/trade-offs
 

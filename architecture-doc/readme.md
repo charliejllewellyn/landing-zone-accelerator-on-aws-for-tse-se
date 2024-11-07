@@ -652,7 +652,7 @@ The structure described in the diagram allows teams to:
 - draw a clear distinction between organization wide networks used for landing zone services and those used for workload networks
 - allow environments to be easily summarized by CIDR, enabling simple firewall and routing control to enforce isolation
 
-To enforce the structured allocation of CIDR ranges across the reference architecture, the solution makes use of [Amazon VPC IP Address Manager (IPAM)](https://docs.aws.amazon.com/vpc/latest/ipam/what-it-is-ipam.html) to create [pools](https://docs.aws.amazon.com/vpc/latest/ipam/how-it-works-ipam.html) which allow the allocation of non-overlapping CIDR ranges for VPC's. Below are tables that describe the IPAM pools and their purpose. These pools, are defined in the [network-config.yaml.ipam](../../config/network-config.yaml.ipam).
+To enforce the structured allocation of CIDR ranges across the reference architecture, the solution makes use of [Amazon VPC IP Address Manager (IPAM)](https://docs.aws.amazon.com/vpc/latest/ipam/what-it-is-ipam.html) to create [pools](https://docs.aws.amazon.com/vpc/latest/ipam/how-it-works-ipam.html) which allow the allocation of non-overlapping CIDR ranges for VPC's. Below are tables that describe the IPAM pools and their purpose. These pools, are defined in the [network-config.yaml.ipam](/config/network-config.yaml.ipam).
 
 ## Global Ipam Pools
 | Pool name | Purpose |
